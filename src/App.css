@@ -1,0 +1,706 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.Firstviewmain{
+  width: 100%;
+  height: 100vh;
+  /* background-color: blue; */
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.Headline{
+  height: 29%;
+  width: 60%;
+  margin-top: 2%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+}
+
+.Headline  h2{
+  font-family: "ITC Avant Garde", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400px;
+  font-family: 32px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.cardholder{
+width: 90%;
+height: 40%;
+/* background-color: rgb(60, 255, 0); */
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.firstbox{
+  height: 70%;
+  width: 30%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.firstbox h1 {
+  font-family: "Salesforce Sans", Arial, sans-serif;
+  font-weight: 400px;
+  font-family: 32px;
+  line-height: 27px;
+  font-size: 25px;
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+.Groupholder{
+  width: 20%;
+  height: 20%;
+  margin-left: 8%;
+  background-color: rgb(210,237,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 40px 40px 40px 40px;
+}
+
+.Groupholder span{
+  font-family: "Salesforce Sans", Arial, sans-serif;;
+  /* color: blue; */
+  line-height: 27px;
+  size: 18px;
+  font-style: 400px;
+}
+
+.secondbox{
+  height: 70%;
+  width: 30%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.secondbox h1 {
+  font-family: "Salesforce Sans", Arial, sans-serif;
+  font-weight: 400px;
+  font-family: 32px;
+  line-height: 27px;
+  font-size: 25px;
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+.thirdbox{
+  height: 70%;
+  width: 30%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.thirdbox h1 {
+  font-family: "Salesforce Sans", Arial, sans-serif;
+  font-weight: 400px;
+  font-family: 32px;
+  line-height: 27px;
+  font-size: 25px;
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+.Exploreholder{
+  width: 24%;
+  height: 8%;
+  /* background-color: rgb(3,101,179); */
+  outline: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: solid rgb(205,232,245) 3px;
+}
+
+.Exploreholder button{
+  width: 90%;
+  height: 90%;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.Catmain{
+  width: 100%;
+  height: 90vh;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catlogo{
+  width: 50%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+.contentecontainer{
+  width: 45%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+ 
+  justify-content: center;
+}
+
+.headingtext{
+  width: 95%;
+  height: 20%;
+  margin-left: 5%;
+  /* background-color: aqua; */
+}
+
+.headingtext h2{
+  font-family: "ITC Avant Garde", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  Size: 32px;
+  Line-Height: 40px;
+}
+
+
+.discription{
+  width: 95%;
+  height: 25%;
+  margin-left: 5%;
+  /* background-color: rgb(255, 0, 255); */
+}
+
+.discription p{
+  font-family: "Salesforce Sans", Arial, sans-serif;
+  Size: 18px;
+  Color: #080707;
+  Line-Height: 27px;
+  text-align: left;
+  font-weight: 400px;
+}
+
+
+.visitholder{
+  width: 35%;
+  height: 10%;
+  margin-left: 5%;
+  /* background-color: rgb(255, 166, 0); */
+}
+
+.visitholder button{
+  width: 90%;
+  height: 90%;
+  cursor: pointer;
+  background-color: white;
+}
+
+.trailwrapper{
+  width: 100%;
+  height: 40vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.textholder{
+  width: 70%;
+  height: 80%;
+  /* background-color: blue; */
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textholder h2{
+  font-family: "ITC Avant Garde", system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  Size: 32px;
+  Line-Height: 40px;
+  text-align: center;
+  color: rgb(3,45,96);
+}
+
+.freeholder{
+  width: 30%;
+  height: 30%;
+  /* background-color: orange; */
+  justify-content: center;
+  display: flex;
+  margin-top: 3%;
+}
+
+.freeholder button{
+  font-family: "Salesforce Sans", Arial, sans-serif;;
+  width: 70%;
+  font-weight: 700px;
+  font-size: 18px;
+  height: 100%;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(1,118,211);
+  border-radius: 3% 3% 3% 3%;
+}
+
+.opportunitywrapper{
+  width: 100%;
+  height: 90vh;
+  /* background-image: url(./assets/php-free-trial-desk\ \(1\).jpg); */
+  /* background-color: rgb(162, 0, 255); */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Pictureholder{
+  width: 75%;
+  height: 90%;
+  /* background-color: aqua; */
+}
+
+.Treewrapper{
+  margin-top: 5%;
+  width: 100%;
+  height: 80vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Treemain{
+  width: 90%;
+  height: 95%;
+  background-color: white;
+  display: flex;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Updatetext{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  /* background-color: crimson; */
+}
+
+.caption span{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.caption{
+  width: 90%;
+  height: 20%;
+  margin-left: 8%;
+  margin-top: 10%;
+  /* background-color: lawngreen; */
+}
+
+.signin{
+  width: 35%;
+  height: 13%;
+  margin-right: 46%;
+  background-color: rgb(1,118,211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px  7px 7px 7px;
+}
+
+.signin h2{
+  font-family: "Salesforce Sans", Arial, sans-serif;
+  font-size: 16px;
+  color: rgb(3,45,96);
+}
+
+
+.Treeholder  img{
+  border-radius: 0px 20px 20px 0px;
+}
+
+.Treeholder{
+  width: 45%;
+  height: 100%;
+  margin-left: 10%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: darkgreen;
+}
+
+.Footerwrapper{
+  width: 100%;
+  height: 70vh;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.Topcaption{
+  width: 100%;
+  height: 80vh;
+  /* background-color: yellow; */
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+.skyforce{
+  width: 22%;
+  height: 90%;
+  margin-left: 1%;
+  /* background-color: #080707; */
+}
+
+.skylogo{
+  width: 30%;
+  height: 20%;
+  /* background-color: red; */
+  display: flex;
+}
+
+.social{
+  margin-top: 15%;
+  width: 90%;
+  height: 15%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.facebook{
+  width: 15%;
+  height: 70%;
+  /* background-color: #444444; */
+}
+
+.xtwitter{
+  width: 15%;
+  height: 70%;
+  /* background-color: #444444; */
+}
+
+.linkdin{
+  width: 15%;
+  height: 70%;
+  /* background-color: #444444; */
+}
+
+.instagram{
+  width: 15%;
+  height: 70%;
+  /* background-color: #444444; */
+}
+
+.youtube{
+  width: 15%;
+  height: 70%;
+  /* background-color: #444444; */
+}
+
+.phonenumber{
+  width: 100%;
+  height: 20%;
+  margin-top: 10%;
+  gap: 5%;
+  /* background-color: deeppink; */
+
+}
+
+.phonenumber h3{
+  font-family: "Salesforce Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.Call{
+  width: 100%;
+  height: 30%;
+  /* background-color: aqua; */
+  margin-top: 8%;
+}
+
+.Call span{
+  font-size: 15px;
+  text-decoration: underline;
+  color: rgb(107, 102, 102);
+}
+
+
+
+.salesforce{
+  width: 22%;
+  height: 90%;
+  /* background-color: pink; */
+}
+
+.wordings{
+  cursor: pointer;
+  width: 100%;
+  height: 80%;
+  margin-top: 17%;
+  /* background-color: lightseagreen; */
+}
+
+.newholder{
+  width: 100%;
+  height: 8%;
+  /* background-color: darkred; */
+}
+
+.salesforce h3{
+  font-size: 16px;
+  font-family: "Salesforce Sans", Arial, sans-serif;
+}
+
+.salesforce ul{
+  margin-top: 5%;
+  font-size: 13px;
+  color: blue;
+  font-family: "Salesforce Sans", Arial, sans-serif;
+}
+
+
+.about{
+  width: 22%;
+  height: 90%;
+  /* background-color: orange; */
+}
+
+.aboutholder{
+  width: 100%;
+  height: 8%;
+  /* background-color: darkred; */
+}
+
+.aboutholder h3{
+  font-size: 16px;
+  font-family: "Salesforce Sans", Arial, sans-serif;
+}
+
+.about ul{
+  margin-top: 5%;
+  font-size: 13px;
+  color: blue;
+  font-family: "Salesforce Sans", Arial, sans-serif;
+}
+
+.aboutcaption{
+  cursor: pointer;
+  width: 100%;
+  height: 80%;
+  margin-top: 17%;
+  /* background-color: lightseagreen; */
+}
+
+.popular{
+  width: 22%;
+  height: 90%;
+  
+  /* background-color: orangered; */
+}
+
+.popularholder{
+  width: 100%;
+  height: 8%;
+  /* background-color: darkred; */
+}
+
+.popularholder h3{
+  font-size: 16px;
+  font-family: "Salesforce Sans", Arial, sans-serif;
+}
+
+.popular ul{
+  margin-top: 5%;
+  font-size: 13px;
+  color: blue;
+  font-family: "Salesforce Sans", Arial, sans-serif;
+}
+
+.popularcaption{
+  cursor: pointer;
+  width: 100%;
+  height: 80%;
+  margin-top: 17%;
+  /* background-color: lightseagreen */
+}
+
+
+.Bottom{
+  width: 100%;
+  height: 70%;
+  background-color: rgb(3,46,97);
+  display: flex;
+  justify-content: space-between;
+}
+
+.worldwrapper{
+  width: 13%;
+  height: 35%;
+  margin-top: 2%;
+  margin-left: 2%;
+  outline: solid white 2px;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+}
+
+
+.worldholder{
+  width: 20%;
+  height: 60%;
+  margin-left: 9%;
+  margin-top: 6%;
+  /* background-color: red; */
+}
+
+.Textholderr{
+  width: 50%;
+  height: 90%;
+  /* background-color: darkslateblue; */
+}
+
+.Textholderr h3{
+  margin-top: 13%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  color: white;
+}
+
+.Addresswrapper{
+  width: 90%;
+  height: 20vh;
+  /* background-color: darkgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2%;
+ 
+}
+
+.Address{
+  width: 100%;
+  height: 35%;
+  cursor: pointer;
+  /* background-color: purple; */
+  margin-top: 19px;
+}
+
+.Address span{
+  font-size: 12px;
+  color: white;
+}
+
+.Policy{
+  width: 65%;
+  height: 40%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.Policy ul{
+  margin-top: 2%;
+  font-size: 10px;
+  text-decoration: underline;
+  color: white;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+  @media (max-width: 767px) {
+    .Headline h2{
+      font-size: 20px;
+      padding-inline: 10px;
+      
+    }
+    .Headline{
+      height: 20%;
+      background-color: green;
+      width: 100%;
+      
+    }
+    .cardholder{
+      display: flex;
+      flex-direction: column; 
+      gap: 10px;
+      background-color: blue;
+      height: 60%;
+      width: 100%;
+    }
+    .firstbox{
+      width: 90%;
+      height: 32%;
+    }
+    .secondbox{
+      width: 90%;
+      height: 32%;
+    }
+    .thirdbox{
+      width: 90%;
+      height: 32%;
+    }
+
+    .Firstviewmain{
+      width: 100%;
+      height: 110vh;
+      background-color: red;
+    }
+    .Exploreholder{
+      width: 90%;
+    }
+    .Catmain{
+      display: flex;
+      flex-direction: column;
+      /* background-color: aqua; */
+    }
+    .headingtext{
+      width: 100%;
+      height: 50%;
+    }
+    .Footerwrapper{
+      display: none;
+    }
+    .freeholder button{
+     width: 80%;
+    }
+
+  .textholder h2{
+    margin-top: 15%;
+    font-size: 20px;
+    
+  }
+  .opportunitywrapper{
+    width: 90%;
+    height: 90%;
+  }
+  .Treemain{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+   
+  }
